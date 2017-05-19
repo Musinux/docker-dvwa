@@ -1,0 +1,78 @@
+version: '2'
+
+services:
+  dvwa1:
+    image: dvwa
+    ports:
+      - '5000:80'
+      - '2200:22'
+  dvwa2:
+    image: dvwa
+    ports:
+      - '5001:80'
+      - '2201:22'
+  dvwa3:
+    image: dvwa
+    ports:
+      - '5002:80'
+      - '2202:22'
+  dvwa4:
+    image: dvwa
+    ports:
+      - '5003:80'
+      - '2203:22'
+  dvwa5:
+    image: dvwa
+    ports:
+      - '5004:80'
+      - '2204:22'
+  dvwa6:
+    image: dvwa
+    ports:
+      - '5005:80'
+      - '2205:22'
+  dvwa7:
+    image: dvwa
+    ports:
+      - '5006:80'
+      - '2206:22'
+  dvwa8:
+    image: dvwa
+    ports:
+      - '5007:80'
+      - '2207:22'
+  dvwa9:
+    image: dvwa
+    ports:
+      - '5008:80'
+      - '2208:22'
+  dvwa10:
+    image: dvwa
+    ports:
+      - '5009:80'
+      - '2209:22'
+  dvwa11:
+    image: dvwa
+    ports:
+      - '5010:80'
+      - '2210:22'
+  dvwa12:
+    image: dvwa
+    ports:
+      - '5011:80'
+      - '2211:22'
+  dvwa13:
+    image: dvwa
+    ports:
+      - '5012:80'
+      - '2212:22'
+  dvwa14:
+    image: dvwa
+    ports:
+      - '5013:80'
+      - '2213:22'
+  dvwa15:
+    image: dvwa
+    ports:
+      - '5014:80'
+      - '2214:22'
